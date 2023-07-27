@@ -1,15 +1,10 @@
+@import url("http://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     
-}
-
-:root{
---first-color: hsl(0, 0%, 100%),
---second-color: hsl(212, 45%, 89%),
---third-color: hsl(220, 15%, 55%),
---third-color: hsl(218, 44%, 22%)
 }
 
 body{
@@ -25,7 +20,7 @@ body{
     
 }
 .container{
-    max-height: 360px;
+  
     margin: 0 auto;
     
 }
@@ -49,12 +44,7 @@ body{
 
 .card-info{
     padding: 22px 10px;
-    
-    
-
 }
-
-
 
 .card-info h1{
     color: hsl(218, 44%, 22%);
@@ -69,16 +59,11 @@ body{
 }
 @media only screen and (max-width:375px) {
     .card{
-        width: 400px;
-        background-color: hsl(0, 0%, 100%);
+     width: 400px;
+     background-color: hsl(0, 0%, 100%);
     padding: 15px;
     border-radius: 19px;
     text-align: center;
-    margin: 4rem 2rem;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.03);
-    margin-bottom: 7rem;
-    }
-    .container{
-    max-height: 300px;
-    margin: 0 auto;
+ 
    
